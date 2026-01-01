@@ -58,11 +58,6 @@ portfolio/
 - Modify styles in the `<style>` section or Tailwind config.
 - Add more sections as needed.
 
-## 📸 Screenshots
-
-- **Hero Section**: Eye-catching intro with gradient text and blob animations.
-- **Projects Grid**: Hoverable cards linking to GitHub repos.
-- **Skills Pills**: Interactive badges for tech stack.
 
 ## 🤝 Contributing
 
