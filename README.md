@@ -1,74 +1,79 @@
 # 👨‍💻 Portfolio | Uday Kiran Reddy
 
-Welcome to my personal portfolio repository! This website showcases my journey as a developer, highlighting my projects in Machine Learning, Natural Language Processing, and Web Development.
+![Portfolio Preview](<img width="941" height="440" alt="Screenshot 2026-01-01 083908" src="https://github.com/user-attachments/assets/6e037558-feff-4ff3-a053-823d42b52f81" />) 
 
-🔗 **Live Demo:** [Insert Link to Live Website Here]
+A modern, responsive personal portfolio website built with HTML, Tailwind CSS, and JavaScript. It showcases my skills as an AI/ML Engineer and Full-Stack Developer, featuring smooth animations, glassmorphism effects, and a clean, dark-themed design.
 
----
+Live Demo: [udaykiranreddy.github.io/portfolio](https://udaykiranreddyuk.github.io/portfolio/) 
 
-## 🚀 About Me
-I am a passionate developer focusing on building intelligent systems and solving real-world problems through code. I am currently exploring career opportunities in tech, with a specific interest in the German market.
+## 🚀 Features
 
-* **GitHub:** [UdayKiranReddyuk](https://github.com/UdayKiranReddyuk)
-* **Focus Areas:** AI/ML, Full Stack Development, Data Science
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices using Tailwind CSS.
+- **Smooth Animations**: Powered by AOS (Animate On Scroll) for engaging scroll-based effects.
+- **Glassmorphism UI**: Modern, blurred glass cards with hover transitions and gradients.
+- **Sections**: Home (Hero), About, Experience, Projects, Skills, Certifications, and Contact.
+- **Interactive Elements**: Hover effects on cards, skill pills, and contact icons.
+- **SEO Optimized**: Meta tags for description and viewport.
+- **Downloadable CV**: Direct link to resume PDF.
 
----
+## 🛠️ Tech Stack
 
-## 📂 Featured Projects
+| Category       | Technologies                  |
+|----------------|-------------------------------|
+| **Frontend**   | HTML5, Tailwind CSS, JavaScript |
+| **Animations** | AOS (Animate On Scroll)       |
+| **Icons**      | Font Awesome                  |
+| **Deployment** | GitHub Pages (static hosting) |
 
-Here are a few of the key projects featured on this portfolio:
+## 📁 Project Structure
 
-### 1. [Storyworld Generator](https://github.com/UdayKiranReddyuk/storyworld-generator)
-* **Description:** An AI-powered tool designed to generate immersive story settings and narrative elements.
-* **Tech Stack:** [e.g., Python, OpenAI API, Flask]
+```
+portfolio/
+├── index.html          # Main HTML file
+├── resume.pdf          # Downloadable CV (add this if not already)
+├── preview.png         # Optional screenshot for README
+└── README.md           # This file
+```
 
-### 2. [Duplicate Question Detection System](https://github.com/UdayKiranReddyuk/Duplicate-Question-Detection-System)
-* **Description:** A semantic analysis tool that identifies duplicate questions within a dataset to improve search efficiency and database quality.
-* **Tech Stack:** [e.g., Python, NLP, Scikit-Learn]
+## 🔧 Quick Start
 
-### 3. [Bitcoin Prediction Model](https://github.com/UdayKiranReddyuk/Bitcoin-Prediction)
-* **Description:** A machine learning model capable of analyzing historical data to predict Bitcoin price trends.
-* **Tech Stack:** [e.g., Python, Pandas, TensorFlow/Keras]
+### Local Development
+1. Clone the repository:
+   ```
+   git clone https://github.com/UdayKiranReddyuk/portfolio.git
+   cd portfolio
+   ```
+2. Open `index.html` in your web browser (e.g., Chrome, Firefox).
+   - No build tools required—it's a static site!
 
----
+### Deployment to GitHub Pages
+1. Go to your repo on GitHub: [github.com/UdayKiranReddyuk/portfolio](https://github.com/UdayKiranReddyuk/portfolio).
+2. Navigate to **Settings > Pages**.
+3. Under **Source**, select **Deploy from a branch** and choose `main` (or `master`).
+4. Save, and your site will be live at `https://udaykiranreddy.github.io/portfolio`.
 
-## 🛠️ Tech Stack & Tools
+### Customization
+- Update content in `index.html` (e.g., projects, skills).
+- Modify styles in the `<style>` section or Tailwind config.
+- Add more sections as needed.
 
-* **Languages:** Python, JavaScript, HTML/CSS
-* **Frameworks:** [e.g., React, Django, Flask]
-* **Tools:** Git, GitHub, VS Code, Jupyter Notebooks
+## 📸 Screenshots
 
----
+- **Hero Section**: Eye-catching intro with gradient text and blob animations.
+- **Projects Grid**: Hoverable cards linking to GitHub repos.
+- **Skills Pills**: Interactive badges for tech stack.
 
-## ⚙️ Installation & Usage
+## 🤝 Contributing
 
-To run this portfolio locally on your machine:
+Feel free to fork this repo, make improvements, or open issues/PRs. Suggestions for new features (e.g., dark/light mode toggle) are welcome!
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/UdayKiranReddyuk/portfolio-repo-name.git](https://github.com/UdayKiranReddyuk/portfolio-repo-name.git)
-    ```
-2.  **Navigate to the directory:**
-    ```bash
-    cd portfolio-repo-name
-    ```
-3.  **Open `index.html`** in your browser OR start a local server (if using a framework):
-    ```bash
-    # Example for React/Node
-    npm install
-    npm start
-    ```
+## 📞 Contact
 
----
+- **Email**: udaykiranreddymavuri@gmail.com
+- **LinkedIn**: [Uday Kiran Reddy Mavuri](https://www.linkedin.com/in/uday-kiran-reddy-mavuri-390a87290)
+- **GitHub**: [UdayKiranReddyuk](https://github.com/UdayKiranReddyuk)
+- **Phone**: +91 94915 70378
 
-## 📫 Contact
-
-Feel free to reach out for collaborations or just a friendly hello!
-
-* **Email:** [Your Email Address]
-* **LinkedIn:** [Your LinkedIn Profile Link]
-
----
-<p align="center">
+© 2025 Uday Kiran Reddy Mavuri. Built with ❤️ using open-source tools.
   <i>Created by Uday Kiran Reddy</i>
 </p>
