@@ -1,4 +1,4 @@
-# 👨‍💻 Portfolio | Uday Kiran Reddy
+# 👨‍💻 Portfolio | Uday Kiran Reddy 
 
 **Portfolio Preview**
 <img width="941" height="440" alt="Screenshot 2026-01-01 083908" src="https://github.com/user-attachments/assets/6e037558-feff-4ff3-a053-823d42b52f81" />
