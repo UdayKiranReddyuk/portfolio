@@ -9,7 +9,7 @@ Live Demo: [udaykiranreddy.github.io/portfolio](https://udaykiranreddyuk.github.
 
 ## 🚀 Features
 
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices using Tailwind CSS.
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices using Tailwind CSS. 
 - **Smooth Animations**: Powered by AOS (Animate On Scroll) for engaging scroll-based effects.
 - **Glassmorphism UI**: Modern, blurred glass cards with hover transitions and gradients.
 - **Sections**: Home (Hero), About, Experience, Projects, Skills, Certifications, and Contact.
