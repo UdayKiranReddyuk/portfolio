@@ -3,7 +3,7 @@
 **Portfolio Preview**
 <img width="941" height="440" alt="Screenshot 2026-01-01 083908" src="https://github.com/user-attachments/assets/6e037558-feff-4ff3-a053-823d42b52f81" />
 
-A modern, responsive personal portfolio website built with HTML, Tailwind CSS, and JavaScript. It showcases my skills as an AI/ML Engineer and Full-Stack Developer, featuring smooth animations, glassmorphism effects, and a clean, dark-themed design.
+A modern, responsive personal portfolio website built with HTML, Tailwind CSS, and JavaScript. It showcases my skills as an AI/ML Engineer and Full-Stack Developer, featuring smooth animations, glassmorphism effects, and a clean, dark-themed design. 
 
 Live Demo: [udaykiranreddy.github.io/portfolio](https://udaykiranreddyuk.github.io/portfolio/) 
 
