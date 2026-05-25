@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Uday Kiran Reddy Mavuri | AI/ML Engineer</title>
+
+  <!-- SEO -->
+  <meta name="description"
+        content="AI/ML Engineer & Full-Stack Developer specializing in Generative AI, FastAPI, React, and cloud-deployed machine learning systems." />
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Icons & Animations -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <style>
+    /* Gradient text */
+    .text-gradient {
+      background: linear-gradient(to right, #38bdf8, #818cf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Glass card */
+    .glass-card {
+      background: rgba(15, 23, 42, 0.75);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(148, 163, 184, 0.15);
+      transition: all 0.35s ease;
+    }
+
+    .glass-card:hover {
+      transform: translateY(-4px);
+      box-shadow:
+        0 0 0 1px rgba(56,189,248,0.3),
+        0 20px 40px rgba(56,189,248,0.15);
+    }
+
+    /* Hero name glossy glow */
+    .name-glow {
+      position: relative;
+      display: inline-block;
+    }
+
+    .name-glow::before {
+      content: "";
+      position: absolute;
+      inset: -20px -40px;
+      background: radial-gradient(
+        circle at 50% 50%,
+        rgba(56,189,248,0.35),
+        rgba(129,140,248,0.15),
+        transparent 70%
+      );
+      filter: blur(40px);
+      z-index: -1;
+    }
+
+    /* Blob animation */
+    @keyframes blob {
+      0% { transform: translate(0,0) scale(1); }
+      33% { transform: translate(30px,-40px) scale(1.1); }
+      66% { transform: translate(-20px,20px) scale(0.95); }
+      100% { transform: translate(0,0) scale(1); }
+    }
+
+    .animate-blob { animation: blob 8s infinite; }
+    .animation-delay-2000 { animation-delay: 2s; }
+
+    /* Skill pills */
+    .skill-pill {
+      transition: all 0.3s ease;
+    }
+
+    .skill-pill:hover {
+      transform: translateY(-3px);
+      border-color: #38bdf8;
+      background: rgba(30,41,59,0.9);
+      box-shadow:
+        0 0 0 1px rgba(56,189,248,0.3),
+        0 10px 25px rgba(56,189,248,0.2);
+    }
+
+    /* Certification cards */
+    .cert-card {
+      transition: all 0.35s ease;
+    }
+
+    .cert-card:hover {
+      transform: translateY(-6px);
+      box-shadow:
+        0 0 0 1px rgba(56,189,248,0.25),
+        0 20px 40px rgba(0,0,0,0.45);
+    }
+
+    /* Footer icons */
+    .contact-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 9999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(30,41,59,0.8);
+      border: 1px solid rgba(148,163,184,0.2);
+      transition: all 0.3s ease;
+    }
+
+    .contact-icon:hover {
+      transform: translateY(-4px);
+      background: rgba(56,189,248,0.15);
+      border-color: #38bdf8;
+      box-shadow: 0 10px 30px rgba(56,189,248,0.25);
+    }
+  </style>
+</head>
+
+<body class="bg-slate-900 text-slate-200 antialiased font-sans">
+
+<!-- NAVBAR -->
+<nav class="fixed w-full z-50 bg-slate-900/90 backdrop-blur border-b border-slate-800">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="flex justify-between items-center h-16">
+      <div class="font-bold text-xl text-white">
+        UKRM<span class="text-sky-400">.</span>
+      </div>
+      <div class="hidden md:flex space-x-6 text-sm">
+        <a href="#home" class="hover:text-sky-400">Home</a>
+        <a href="#about" class="hover:text-sky-400">About</a>
+        <a href="#experience" class="hover:text-sky-400">Experience</a>
+        <a href="#projects" class="hover:text-sky-400">Projects</a>
+        <a href="#skills" class="hover:text-sky-400">Skills</a>
+        <a href="#contact"
+           class="bg-sky-600 hover:bg-sky-700 px-4 py-1.5 rounded-full text-white">
+          Contact
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden">
+  <div class="absolute top-20 left-10 w-72 h-72 bg-purple-500 blur-3xl opacity-20 rounded-full animate-blob"></div>
+  <div class="absolute top-20 right-10 w-72 h-72 bg-sky-500 blur-3xl opacity-20 rounded-full animate-blob animation-delay-2000"></div>
+
+  <div class="text-center z-10 px-6" data-aos="zoom-in">
+    <p class="uppercase tracking-widest text-sky-400 mb-3">Hello, I'm</p>
+
+    <h1 class="text-5xl md:text-7xl font-bold mb-6 text-white name-glow">
+      Uday Kiran Reddy <span class="text-gradient">Mavuri</span>
+    </h1>
+
+    <h2 class="text-xl md:text-2xl text-slate-400 max-w-3xl mx-auto mb-8">
+      AI/ML Engineer & Full-Stack Developer building production-ready intelligent systems
+    </h2>
+
+    <div class="flex flex-col md:flex-row gap-4 justify-center">
+      <a href="resume.pdf"
+         download="Uday_Kiran_Reddy_AI_ML_Engineer.pdf"
+         class="bg-sky-600 hover:bg-sky-700 px-8 py-3 rounded-full font-semibold shadow-lg shadow-sky-500/30">
+        Download CV <i class="fas fa-download ml-2"></i>
+      </a>
+      <a href="#projects"
+         class="border border-slate-600 hover:border-sky-400 hover:text-sky-400 px-8 py-3 rounded-full">
+        View Projects
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="py-24">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-white mb-12" data-aos="fade-up">
+      Technical Skills
+    </h2>
+
+    <div class="space-y-10">
+      <div>
+        <h4 class="uppercase text-slate-400 text-sm mb-4">Languages</h4>
+        <div class="flex flex-wrap gap-3">
+          <span class="skill-pill px-4 py-1.5 bg-slate-800 text-sky-300 rounded-full border border-slate-700">Python</span>
+          <span class="skill-pill px-4 py-1.5 bg-slate-800 text-sky-300 rounded-full border border-slate-700">SQL</span>
+          <span class="skill-pill px-4 py-1.5 bg-slate-800 text-sky-300 rounded-full border border-slate-700">JavaScript</span>
+          <span class="skill-pill px-4 py-1.5 bg-slate-800 text-sky-300 rounded-full border border-slate-700">HTML/CSS</span>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="uppercase text-slate-400 text-sm mb-4">Frameworks & ML</h4>
+        <div class="flex flex-wrap gap-3">
+          <span class="skill-pill px-4 py-1.5 bg-slate-800 text-sky-300 rounded-full border border-slate-700">FastAPI</span>
+          <span class="skill-pill px-4 py-1.5 bg-slate-800 text-sky-300 rounded-full border border-slate-700">React.js</span>
+          <span class="skill-pill px-4 py-1.5 bg-slate-800 text-sky-300 rounded-full border border-slate-700">TensorFlow</span>
+          <span class="skill-pill px-4 py-1.5 bg-slate-800 text-sky-300 rounded-full border border-slate-700">PyTorch</span>
+          <span class="skill-pill px-4 py-1.5 bg-slate-800 text-sky-300 rounded-full border border-slate-700">Scikit-learn</span>
+          <span class="skill-pill px-4 py-1.5 bg-slate-800 text-sky-300 rounded-full border border-slate-700">LLMs</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section class="py-24 bg-slate-800/40">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-white mb-10" data-aos="fade-up">
+      Certifications & Education
+    </h2>
+
+    <div class="space-y-5">
+      <div class="cert-card p-6 bg-slate-800 rounded-xl border-l-4 border-yellow-500">
+        <h4 class="font-bold text-white">OCI Generative AI Certified Professional</h4>
+        <p class="text-slate-400 text-sm">Oracle</p>
+      </div>
+
+      <div class="cert-card p-6 bg-slate-800 rounded-xl border-l-4 border-blue-500">
+        <h4 class="font-bold text-white">PCAP – Programming Essentials in Python</h4>
+        <p class="text-slate-400 text-sm">CISCO Networking Academy</p>
+      </div>
+
+      <div class="cert-card p-6 bg-slate-800 rounded-xl border-l-4 border-green-500">
+        <h4 class="font-bold text-white">B.Tech in Computer Science (AI-ML)</h4>
+        <p class="text-slate-400 text-sm">SRK Institute of Technology (2020–2024)</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contact" class="py-16 border-t border-slate-800 text-center">
+  <h2 class="text-3xl font-bold text-white mb-8">Let's Work Together</h2>
+
+  <div class="flex justify-center gap-6 mb-8">
+    <a href="mailto:udaykiranreddymavuri@gmail.com" class="contact-icon">
+      <i class="fas fa-envelope"></i>
+    </a>
+    <a href="tel:+919491570378" class="contact-icon">
+      <i class="fas fa-phone"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/uday-kiran-reddy-mavuri-390a87290"
+       target="_blank" class="contact-icon">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://github.com/UdayKiranReddyuk"
+       target="_blank" class="contact-icon">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+
+  <p class="text-slate-500 text-sm">
+    © 2025 Uday Kiran Reddy Mavuri. All rights reserved.
+  </p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({ once: true, duration: 800, offset: 100 });
+</script>
+
+</body>
+</html>
